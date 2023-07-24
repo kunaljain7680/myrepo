@@ -1,0 +1,12 @@
+ HOW TO PUSH GIT COMMIT (i.e from local to remote)
+
+1) create github account
+2) create empty repo 
+3) link remote repo with local repo using git remote add origin url of remote repo
+ 
+ 4)use this commands in local system (i.e git bash)
+
+git config --global user.name "kunaljain7680"
+git config --global user.email "jainkunal2003@gmail.com"
+
+5)git push -u origin master ,there will be error , it will ask username and password(generate token in settings,select all)
